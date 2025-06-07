@@ -10,7 +10,7 @@ import java.net.URLEncoder
 
 object FacilityApi {
     private val client = OkHttpClient()
-    private const val serviceKey = "JTftKqDq5nordNk85GvejTJcgXw88G2FilVIE46YvfVG2Io8ZkI%2FD%2BjfzcRcVTMrdqhJRSeoGaSqFpzVQb7uQQ%3D%3D" // 실제 키로 교체
+    private const val serviceKey = "Mykey" // 실제 키로 교체
     private const val baseUrl = "https://apis.data.go.kr/B554287/DisabledPersonConvenientFacility/getDisConvFaclList"
     private const val baseUrl2 = "http://apis.data.go.kr/B554287/DisabledPersonConvenientFacility/getFacInfoOpenApiJpEvalInfoList/getFacInfoOpenApiJpEvalInfoList.do"
     private suspend fun fetchWithParam(paramName: String, value: String): String =
